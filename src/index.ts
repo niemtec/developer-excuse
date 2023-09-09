@@ -1,7 +1,11 @@
 import { showHUD, Clipboard } from "@raycast/api";
 
+import excuses from "./excuses";
+
 export default async function main() {
-  const now = new Date();
-  await Clipboard.copy(now.toLocaleDateString());
-  await showHUD("Copied date to clipboard");
+  const randomExcuse: string = getRandomElement(excuses);
+  await Clipboard.paste(randomExcuse);
+  await showHUD(randomExcuse);
 }
+
+const getRandomElement = (arr: any[]) => arr[Math.floor(Math.random() * arr.length)];
