@@ -3,7 +3,7 @@
   "name": "developer-excuse",
   "title": "Developer Excuses",
   "description": "Insert a random developer excuse for not doing your work.",
-  "icon": "command-icon.png",
+  "icon": "excuse-icon.png",
   "author": "niemtec",
   "categories": [
     "Fun"
