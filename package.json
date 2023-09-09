@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "developer-excuse",
-  "title": "Developer Excuse",
+  "title": "Developer Excuses",
   "description": "Insert a random developer excuse for not doing your work.",
   "icon": "command-icon.png",
   "author": "niemtec",
@@ -12,7 +12,7 @@
   "commands": [
     {
       "name": "index",
-      "title": "Make an Excuse",
+      "title": "Insert an Excuse",
       "subtitle": "Insert a random developer excuse",
       "description": "Inserts a randomly picked developer excuse into your current window",
       "mode": "no-view"
